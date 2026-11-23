@@ -1,0 +1,20 @@
+﻿<form method="post" action="/CV/Index">
+
+    <label>Ad Soyad:</label>
+    <input type="text" name="AdSoyad" />
+
+    <br /><br />
+
+    <label>CV Metni:</label>
+    <br />
+    <textarea name="cvText" rows="6" cols="50"></textarea>
+
+    <br /><br />
+
+    <button type="submit">Analiz Et</button>
+</form>
+
+<hr />
+
+<h3 style="color:green">@ViewBag.Message</h3>
+<h2>Uyumluluk Puanı: @ViewBag.Puan %</h2>
